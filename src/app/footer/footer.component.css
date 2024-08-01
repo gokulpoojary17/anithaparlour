@@ -1,15 +1,33 @@
-footer{
+/* footer{
     overflow: hidden;
     padding:0 0;
     position: sticky;
     width: 100vw;
     bottom: 0;
 
-    /* margin-top: 100%; */
 }
 @media screen  and (min-width:375){
     footer{
         bottom: 0;
     }
     
-}
+} */
+
+/* Example CSS for responsive footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      position: static;
+      margin-top: 20px;
+    }
+  }
+  
