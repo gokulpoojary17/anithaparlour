@@ -3,6 +3,7 @@ footer{
     padding:0 0;
     position: sticky;
     width: 100vw;
+    bottom: 0;
 
     /* margin-top: 100%; */
 }
