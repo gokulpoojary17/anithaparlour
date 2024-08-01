@@ -21,11 +21,12 @@
     }
   }
   .container h1{
-    color: rgb(9, 13, 221);
-    font-weight: bold;
-    text-decoration: underline;
+    color: rgb(21, 8, 94);
+    /* text-decoration: underline; */
     text-align: center;
-
+    font-family: "Calistoga", serif;
+    font-weight: 800;
+    font-style: normal;
   }
   .stepbox h1{
     color: rgb(1, 143, 168);

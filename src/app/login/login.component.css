@@ -17,6 +17,9 @@
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  body{
-    background: linear-gradient(to bottom,rgb(113, 231, 247),black);
-}
+  button{
+    color: rgb(217, 217, 233);
+    background-color: rgb(52, 10, 240);
+display: block;
+margin-left: 120px;
+  }

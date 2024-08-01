@@ -40,7 +40,7 @@
           </div>
         </div>
         <br>
-        <button type="submit" class="btn btn-primary btn-block" [disabled]="loginForm.invalid">{{ isSignInMode ? 'Sign In' : 'Register' }}</button>
+        <button type="submit" [disabled]="loginForm.invalid">{{ isSignInMode ? 'Sign In' : 'Register' }}</button>
       </form>
       <div *ngIf="loginForm.invalid && (loginForm.dirty || loginForm.touched)" class="text-danger text-center mt-3">
         Please input all the fields correctly
