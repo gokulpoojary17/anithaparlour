@@ -9,4 +9,7 @@ body {
     width: 100%;
     /* height: 100vw; */
     background: linear-gradient(to bottom,rgb(229, 201, 205),rgb(230, 52, 52));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
