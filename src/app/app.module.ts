@@ -14,6 +14,7 @@ import { BridalComponent } from './beautyservices/bridal/bridal.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MesageComponent } from './mesage/mesage.component';
+import { NailsComponent } from './nails/nails.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MesageComponent } from './mesage/mesage.component';
     HairspaComponent,
     BridalComponent,
     LoginComponent,
-    MesageComponent
+    MesageComponent,
+    NailsComponent
   ],
   imports: [
     BrowserModule,

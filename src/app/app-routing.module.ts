@@ -8,6 +8,7 @@ import { HairspaComponent } from './beautyservices/hairspa/hairspa.component';
 import { BridalComponent } from './beautyservices/bridal/bridal.component';
 import { LoginComponent } from './login/login.component';
 import { MesageComponent } from './mesage/mesage.component';
+import { NailsComponent } from './nails/nails.component';
 
 const routes: Routes = [
   {path:"home",component:HomeComponent},
@@ -18,6 +19,9 @@ const routes: Routes = [
   {path:"bridal",component:BridalComponent},
   { path: 'login', component: LoginComponent},
   {path:"message",component:MesageComponent},
+  {path:"nails",component:NailsComponent},
+
+  
 
 
   {path:"",redirectTo:"home",pathMatch:"full"},
