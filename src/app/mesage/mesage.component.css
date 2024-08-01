@@ -1,0 +1,30 @@
+.container h1{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 565;
+    font-style: normal;
+}
+p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stepbox {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #aaaaaa, -5px -5px 15px #ffffff;
+    padding: 30px;
+    margin: 50px;
+    transition: transform 0.2s;
+    width: 70%;
+    height: 200px;
+
+}
+.stepbox h1{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container{
+    height: 100%;
+}

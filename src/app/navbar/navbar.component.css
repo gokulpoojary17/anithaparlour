@@ -1,0 +1,151 @@
+.navbar-brand {
+    color: rgb(231, 229, 231);
+    font-family: "Calistoga", serif;
+
+    font-size: 30px;
+    margin-left: 70px;
+    font-weight: 800;
+
+}
+
+
+
+
+
+
+
+header {
+    background-color: rgb(31, 78, 235);
+    height: 50px;
+    padding: 0px 0px;
+    width: 100vw;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(0);
+    --webkit-backdrop-filter: blur(1px);
+    transition: width 0.3s ease;
+}
+
+.wi {
+    width: 100%;
+}
+
+.sidebar:hover {
+    width: 180px;
+}
+
+.sidebar .logo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 25px 10px 15px;
+}
+
+.logo img {
+    width: 43px;
+    border-radius: 50%;
+    margin-left: 15px;
+
+}
+
+.logo h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: none;
+}
+
+.sidebar:hover .logo h2 {
+    display: block;
+}
+
+.sidebar .links {
+    list-style: none;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: calc(100% - 140px);
+}
+
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
+
+.links li {
+    display: flex;
+    border-radius: 4px;
+}
+
+.links li:hover {
+    cursor: pointer;
+    background: #fc028b;
+}
+
+.links h4 {
+    color: #222;
+    font-weight: 500;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.sidebar:hover .links img {
+    display: block;
+}
+
+.links hr {
+    margin: 10px 8px;
+    border: 1px solid #4c4c4c;
+}
+
+.sidebar:hover .links hr {
+    border-color: transparent;
+}
+
+.links li span {
+    padding: 8px 8px;
+}
+
+.links li a {
+    padding: 10px;
+    color: #000;
+    display: none;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sidebar:hover .links li a {
+    display: block;
+}
+
+.links .logout-link {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        color: rgb(231, 229, 231);
+        font-family: "Calistoga", serif;
+
+        font-size: 23px;
+        margin-left: 70px;
+        font-weight: 400;
+
+    }
+    .links li:hover {
+        cursor: pointer;
+        background: #fc028b;
+    }
+
+   
+
+}

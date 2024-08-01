@@ -1,0 +1,22 @@
+
+ 
+.banner h1 {
+    font-size: 2rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+.banner img{
+    width: 500px;
+    border-radius: 50%;
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+    .banner h1 {
+        font-size: 3rem;
+
+    }
+}
