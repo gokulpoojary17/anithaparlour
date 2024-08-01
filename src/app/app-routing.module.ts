@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   {path:"message",component:MesageComponent},
   {path:"nails",component:NailsComponent},
+  {path:"back",component:ServicesComponent},
 
   
 
